@@ -42,5 +42,6 @@
 	<modules>
 		<module>spring_config</module>
 		<module>spring_mail</module>
+		<module>spring_jdbctemplate</module>
 	</modules>
 </project>
