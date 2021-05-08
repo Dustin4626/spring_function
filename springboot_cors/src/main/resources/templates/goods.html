@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<title>註冊會員頁面</title>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"
+	integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+	crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- 	圖片不需要跨域 -->
+	<img src="https://s3.ifanr.com/wp-content/uploads/2020/05/16-3.jpg!720" />
+
+	<script>
+				$(function() {
+					$.ajax({
+						type : "GET",
+						url : "http://192.168.0.150:8080/web/test",
+						dataType : "text",
+						success : function(data) {
+							alert(data);
+						}
+					})
+				})
+// 		$.ajax({
+// 			type : "GET",
+// 			url : "http://192.168.0.150:8080/web/jsonp",
+// 			dataType : "jsonp", // 返回的数据类型，设置为JSONP方式
+// 			jsonp : 'callback', //指定一个查询参数名称来覆盖默认的 jsonp 回调参数名 callback
+// 			jsonpCallback : 'handleResponse', //设置回调函数名
+
+// 			success : function(response, status, xhr) {
+// 				console.log('状态为：' + status + ',状态是：' + xhr.statusText);
+// 				console.log(response);
+// 			},
+
+// 			error : function(XMLHttpRequest, textStatus, errorThrown) {
+// 				// 状态码
+// 				console.log(XMLHttpRequest.status);
+// 				// 状态
+// 				console.log(XMLHttpRequest.readyState);
+// 				// 错误信息
+// 				console.log(textStatus);
+// 				alert(errorThrown);
+// 			}
+// 		});
+
+// 		//回调方法
+// 		function handleResponse(response) {
+// 			console.log(response);
+// 			alert(response);
+// 		}
+	</script>
+</body>
+
+</html>

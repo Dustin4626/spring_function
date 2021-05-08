@@ -50,5 +50,6 @@
 		<module>spring_mail</module>
 		<module>spring_jdbctemplate</module>
 		<module>swagger2</module>
+		<module>springboot_cors</module>
 	</modules>
 </project>
