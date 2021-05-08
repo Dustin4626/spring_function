@@ -28,6 +28,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -43,5 +49,6 @@
 		<module>spring_config</module>
 		<module>spring_mail</module>
 		<module>spring_jdbctemplate</module>
+		<module>swagger2</module>
 	</modules>
 </project>
